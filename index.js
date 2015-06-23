@@ -181,7 +181,10 @@ function smokestack(opts) {
     switch (browser) {
       case 'chrome':
         launched = chrome(uri, {
-          args: ['--load-extension=' + __dirname + '/lib/extension-chrome']
+          args: [
+            '--load-extension=' + __dirname + '/lib/extension-chrome',
+            '--enable-unsafe-es3-apis'
+          ]
         })
       break
       case 'firefox':

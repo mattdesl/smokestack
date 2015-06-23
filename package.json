@@ -1,5 +1,5 @@
 {
-  "name": "smokestack",
+  "name": "@mattdesl/smokestack-webgl2",
   "version": "3.3.0",
   "description": "Pipe your JavaScript into a browser, logging console output in Node",
   "main": "index.js",

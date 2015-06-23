@@ -1,4 +1,6 @@
-# smokestack
+# @mattdesl/smokestack-webgl2
+
+Note: This is a fork of [smokestack](https://github.com/hughsk/smokestack) to support WebGL2. You will need a new version of npm to install this, since it's a scoped module.
 
 #### JavaScript goes in, console logs come out.
 
